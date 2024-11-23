@@ -1,0 +1,123 @@
+.edit-product-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe2c2;
+}
+
+.admin-homepage-header {
+    background-color: #ff6d00;
+    height: 120px; 
+    padding: 20px; 
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.19);
+}
+
+.admin-homepage-logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.admin-homepage-nav .nav-list {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.logout-button:hover {
+    text-decoration: underline;
+}
+
+.edit-product-container {
+    width: 50%;
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.edit-product-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.edit-product-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group-edit {
+    margin-bottom: 20px;
+}
+
+.form-label-edit{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-input-edit,
+.form-textarea-edit,
+.form-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.form-textarea-edit {
+    resize: vertical; 
+   
+}
+
+.form-input[type="file"] {
+    width: 100%;
+    padding: 10px;
+}
+
+.edit-product-page .primary-button {
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 92%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.primary-button:hover {
+    background-color: #0056b3;
+}
+
+.admin-homepage-footer {
+    background-color: #ff6d00;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    font-family: 'Verdana', sans-serif;
+    padding-top: 5px;
+    margin-top: auto;
+}

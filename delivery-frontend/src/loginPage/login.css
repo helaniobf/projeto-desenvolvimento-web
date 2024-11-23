@@ -1,0 +1,95 @@
+.login-page .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(193, 91, 0, 0.85);
+}
+
+.login-page .login-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 400px; 
+    text-align: center;
+}
+
+.login-page .login-logo {
+    width: 125px; 
+    height: 125px; 
+    margin-bottom: 10px;
+}
+
+.login-page .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.login-page .form-group-login {
+    margin: 0; 
+    padding: 0; 
+}
+
+
+.login-page .form-group-login label {
+    margin: 0;
+    font-weight: bold;
+    color: #555;
+    font-size: 16px; 
+    line-height: 1.2;
+}
+
+.login-page .input-field {
+    width: 100%;
+    padding: 6px; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px; 
+    line-height: 1.2; 
+}
+
+.login-page .login-button {
+    background-color: rgba(255, 109, 0, 0.93);
+    color: white;
+    padding: 10px; 
+    border: none;
+    border-radius: 4px;
+    font-size: 16px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.login-page .login-button:hover {
+    background-color: rgb(218, 76, 0);
+}
+
+.login-page .login-message {
+    margin-top: 8px;
+    color: #e74c3c;
+    font-size: 14px; 
+}
+
+.login-page .return-login {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.login-page .return-login p {
+    font-size: 14px; 
+}
+
+.login-page .return-login a {
+    color: #df551a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px; 
+}
+
+.login-page .return-login a:hover {
+    text-decoration: underline;
+}

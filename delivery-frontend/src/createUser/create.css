@@ -1,0 +1,98 @@
+.create-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(193, 91, 0, 0.85);
+}
+
+.create-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    height: 600px;
+    text-align: center;
+}
+
+.create-logo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: -20px;
+}
+
+
+.create-title {
+    font-size: 24px;
+    margin-bottom: -35px;
+    color: #333;
+}
+
+
+.create-form-create {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-group-create {
+    margin-bottom: -15px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+
+.form-group-create label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.create-button {
+    background-color: rgba(255, 109, 0, 0.93);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 40px;
+}
+
+.create-button:hover {
+    background-color: rgb(218, 76, 0);
+}
+
+
+.create-message {
+    margin-top: 10px;
+    color: #e74c3c;
+}
+
+.return-login {
+    margin-top: 15px;
+}
+
+.return-login a {
+    color: #df551a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.return-login a:hover {
+    text-decoration: underline;
+}

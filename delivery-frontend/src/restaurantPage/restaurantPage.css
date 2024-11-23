@@ -1,0 +1,174 @@
+.restaurant-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe2c2;
+}
+
+.restaurant-page-header {
+    background-color: #ff6d00;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.19);
+}
+
+.admin-homepage-logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 0;
+    margin-left: 20px;
+}
+
+
+.form-actions {
+    display: flex;
+    justify-content: flex-start; /* Alinha o botão à esquerda */
+    margin-top: 20px;
+}
+
+.form-group button {
+    width: 250px; /* Ajuste a largura conforme necessário */
+    padding: 10px 20px;
+    background-color: #ff6d00;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: rgba(255, 109, 0, 0.68);
+}
+
+/* Espaçamento entre os botões */
+.form-group button:first-child {
+    margin-right: 10px; /* Adiciona um espaço à direita do botão "Salvar" */
+}
+
+.restaurant-info {
+    margin: 70px auto;
+    max-width: 600px;
+}
+
+.restaurant-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 95%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+
+}
+
+.time-range {
+    margin-top: 50px; 
+    font-size: 14px;
+    color: #333;
+}
+
+.edit-button, .save-button {
+    background-color: #ff6d00;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.save-button:hover, .edit-button:hover {
+    background-color: rgba(255, 109, 0, 0.68);
+    color: white;
+}
+
+.restaurant-page-footer {
+    background-color: #ff6d00;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+.MuiSlider-root {
+    color: #ff8c00 !important; 
+}
+
+.MuiSlider-markLabel {
+    color: #333 !important; 
+}
+
+.MuiSlider-thumb {
+    background-color: white !important;
+    border: 2px solid #ff8c00 !important; 
+}
+
+.MuiSlider-track {
+    background-color: #ff8c00 !important; 
+}
+
+.MuiSlider-rail {
+    background-color: #ccc !important; 
+}
+.image-upload {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.image-upload.dragging {
+    background-color: #f0f0f0;
+}
+
+.upload-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-icon {
+    font-size: 3rem;
+    color: #999;
+}
+
+.restaurant-image-preview {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.image-upload p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+}
+.restaurant-image {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+

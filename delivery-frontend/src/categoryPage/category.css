@@ -1,0 +1,186 @@
+/* Container da página */
+.create-category-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Contêiner principal (caixa de categorias) */
+.create-category-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ffe2c2;
+}
+
+/* Caixa principal contendo as duas seções */
+.category-box {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.form-container-category {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+/* Campo de entrada menor */
+.category-input-category {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transform: translateX(-11px);
+}
+
+/* Botão ajustado */
+.create-category-button {
+    width: 80%;
+    max-width: 300px;
+    background-color: #ff6d00;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-category-button:hover {
+    background-color: #e65100;
+}
+
+/* Lista de Categorias */
+.categories-list {
+    flex: 2;
+    padding: 20px;
+}
+
+.categories-list h2 {
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.category-item:hover {
+    background-color: #ffe2c2;
+    border-color: #ff6d00;
+    color: #ff6d00;
+}
+
+/* Botão de Excluir */
+.delete-category-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: #ff6d00;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-category-button:hover {
+    color: #e65100;
+}
+
+/* Footer */
+.admin-homepage-footer {
+    background-color: #ff6d00;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    font-family: 'Verdana', sans-serif;
+    margin-top: auto;
+}
+
+/* Modal de Confirmação */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.modal-buttons-category {
+    display: flex;
+    justify-content: space-around; /* Alinha os botões horizontalmente */
+    gap: 20px; /* Espaçamento entre os botões */
+    margin-top: 20px;
+}
+
+.modal-confirm,
+.modal-cancel {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.modal-confirm {
+    background-color: #ff6d00;
+    color: white;
+}
+
+.modal-cancel {
+    background-color: #ccc;
+    color: black;
+}
+
+.modal-confirm:hover {
+    background-color: #e65100;
+}
+
+.modal-cancel:hover {
+    background-color: #999;
+}
